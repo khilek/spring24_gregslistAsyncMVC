@@ -1,0 +1,81 @@
+<div class="bg-white p-3">
+  <div class="card-body">
+    <p>Jobs Page</p>
+    <h1> Wanna get a job?</h1>
+  </div>
+
+  <section class="container">
+    <form id="job-form" onsubmit="app.JobsController.createJob()" class="row border shadow">
+      <h4>List a opening</h4>
+      <div class="col-4 mb-3">
+        <label for="">Job Title</label>
+        <input type="text" name="jobTitle" class="form-control" required placeholder="Description">
+      </div>
+      <div class="col-4 mb-3">
+        <label for="">Company</label>
+        <input type="text" name="company" class="form-control" required placeholder="Description">
+      </div>
+      <div class="col-4 mb-3">
+        <label for="">Hours</label>
+        <input type="text" name="hours" class="form-control" required placeholder="Hours">
+      </div>
+      <div class="col-4 mb-3">
+        <label for="">Rate of pay</label>
+        <input type="text" name="rate" class="form-control" required placeholder="Rate of pay">
+      </div>
+      <div class="col-4 mb-3">
+        <label for="">Description</label>
+        <input type="text" name="description" class="form-control" required placeholder="Description">
+      </div>
+      <div class="mb-2">
+        <button type="submit" class="btn btn-primary">submit</button>
+      </div>
+    </form>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="container">
+    <div class="row" id="jobs-list">
+
+
+      <!-- <div class="col-6">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title text-center">Job Title at Job Company</h3>
+            <p>Hours: 40</p>
+            <p>Rate of Pay: $35/hr</p>
+            <p>Description: Job Description</p>
+            <div class="d-flex justify-content-end">
+              <span class="text-secondary me-2">SadFish</span>
+              <img class="profile-picture profile-picture-sm"
+                src="https://c4.wallpaperflare.com/wallpaper/921/14/483/fish-sad-fantasy-art-1680x1050-animals-fish-hd-art-wallpaper-thumb.jpg"
+                alt="">
+            </div>
+            <button onclick="app.HousesController.deleteHouse('${this.id}')" class="btn btn-danger w-100"><i
+                class="mdi mdi-delete"></i></button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+  </section>
+</div>
